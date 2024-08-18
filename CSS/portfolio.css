@@ -1,0 +1,55 @@
+body{
+  font-family: "Work Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.text-primary{
+    color: rgb(255, 111, 0);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+.btn-primary{
+    border-radius: 5px;
+    background:rgb(255, 111, 0);
+    border: 0;
+    padding: 15px 35px;
+    color: rgba(255, 255, 255, 0.861);
+    font-size: 20px;
+    text-align: center;
+}
+.header{
+    background: rgba(255, 247, 230, 0.938);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items:center;
+}
+.banner .profile-pic{
+    width: 500px;
+
+}
+
