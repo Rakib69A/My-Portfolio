@@ -7,6 +7,17 @@ body{
 .text-primary{
     color: rgb(255, 111, 0);
 }
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color:#888181;
+    text-align: center;
+    font-size: 18px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -52,6 +63,9 @@ nav a{
     align-items:center;
     justify-content: space-between;
 }
+.banner-content{
+    max-width: 500px;
+}
 .banner .profile-pic{
     width: 500px;
 }
@@ -71,4 +85,10 @@ nav a{
     margin-top: 0px;
     margin-bottom: 10px;
 }
-
+.about{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(248, 238, 227);
+    padding: 130px ;
+}
