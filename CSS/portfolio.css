@@ -86,9 +86,28 @@ nav a{
     margin-bottom: 10px;
 }
 .about{
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 130px;
     background-color: rgb(248, 238, 227);
     padding: 130px ;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-bottom: ;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    margin-bottom: 0px;
+    font-weight: 200;
+    color:#888181;
+    /* #888181; */
+}
+.info-description{
+    margin-top: 5px;
 }
