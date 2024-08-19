@@ -96,6 +96,9 @@ main{
     margin: 0px auto;
     margin-bottom: ;
 }
+main section{
+    margin-top: 130px;
+}
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -123,13 +126,17 @@ main{
     display: flex;
 }
 .skill{
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     border-radius: 5px;
     margin-right: 10px;
     padding: 40px;
-    max-height: 300px;
-    /* color:#888181; */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skill-des{
     color:#888181;
+}
+/* Resume section styles */
+.resume-column-container{
+    display: flex;
+    gap: 10px;
 }
